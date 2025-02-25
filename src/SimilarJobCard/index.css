@@ -1,0 +1,38 @@
+.similar-jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  padding-left: 4px;
+  align-items: stretch;
+}
+.similar-job-card {
+  background-color: #272727;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.description-heading {
+  color: #ffffff;
+}
+.similar-job-description-txt {
+  font-size: 14px;
+  color: #ffffff;
+}
+.location {
+  margin-right: 20px;
+}
+.briefcase {
+  color: #ffffff;
+  margin-right: 8px;
+  align-self: center;
+}
+.details-container {
+  color: #ffffff;
+}
+.similar-company-logo {
+  width: 100px;
+  margin-right: 20px;
+}
+.align-center{
+  align-items: flex-start;
+}

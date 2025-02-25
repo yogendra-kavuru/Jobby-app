@@ -1,0 +1,113 @@
+.jobs-page-container {
+  min-height: 92vh;
+  background-color: #000000;
+  display: flex;
+  padding: 40px;
+}
+.section-container {
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f8fafc;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 250px;
+  width: 350px;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile-name {
+  color: #6366f1;
+}
+.designation {
+  color: #475569;
+  font-weight: bold;
+}
+.filter-section-heading {
+  color: #ffffff;
+  font-weight: bold;
+}
+.filter-items-list {
+  padding: 0px;
+  list-style-type: none;
+  padding-left: 4px;
+}
+.filter-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+.filter-label {
+  color: #ffffff;
+}
+.filter-checkbox {
+  margin-right: 10px;
+}
+.jobs-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.search-bar {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  align-self: flex-start;
+}
+.search-icon-button {
+  background-color: #272727;
+  padding: 10px;
+}
+.search-icon {
+  color: #ffffff;
+}
+.search-input {
+  background-color: transparent;
+  padding: 8px;
+  width: 400px;
+  color: #ffffff;
+  font-size: 20px;
+  border: 0px;
+  outline: none;
+}
+.job-items-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-left: 10px;
+}
+.loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.retry-btn {
+  background-color: #4f46e5;
+  border: 0px;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 12px;
+}
+.error-heading {
+  color: #ffffff;
+}
+.error-txt {
+  color: #cbd5e1;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
